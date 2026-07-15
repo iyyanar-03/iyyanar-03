@@ -32,12 +32,11 @@
 | Project | Description | Tech Stack |
 |---|---|---|
 | 🩸 **AV Fistula Monitoring System** | Wearable device detecting stenosis via PPG, motion, and acoustic bruit signals | ESP32, MAX30102, LIS2DW12, Piezo Sensor |
-| 🫀 **Virtual Stethoscope** | Heart sound classification for automated cardiac diagnostics | Python, ML, Signal Processing |
-| 📈 **ECG/EEG Signal Filtering** | Biomedical signal denoising and feature extraction pipeline | Python, DSP |
-| 🚗 **Driving Behavior & Risk Profiling** | Sensor-based analysis of driving patterns for risk scoring | Python, GSR/PPG Sensors |
-| 🔋 **EV Battery Degradation Forecasting** | Predictive modeling of battery health over time | Python, ML |
-| 🦋 **Thyroid Nodule Detection & Segmentation** | Medical image segmentation for nodule identification | Python, Deep Learning |
-| 🏥 **Hospital Management System** | Full-stack system for hospital workflow management | Web Development |
+| 📡 **Non-Contact Heart Rate & Respiration Monitoring** | Contactless vital sign monitoring for emergency clinical settings using mmWave radar chest-motion sensing, phase extraction, filtering, and FFT-based HR/RR band separation | mmWave Radar, Signal Processing, FFT |
+| 🦋 **Thyroid Nodule Detection & Segmentation** | AI-based thyroid ultrasound segmentation using U-Net with ResNet34 backbone on the TN3K dataset, with Grad-CAM visualization and Dice Coefficient evaluation | Python, PyTorch, OpenCV, Deep Learning |
+| 🩺 **Automated Colorectal Polyp Detection & Segmentation** | U-Net based deep learning system for early-stage colorectal cancer detection on the Kvasir-SEG dataset using Dice + BCE hybrid loss | Python, PyTorch, U-Net |
+| 📊 **Stress Analysis Using Galvanic Skin Response (GSR)** | Real-time stress detection system monitoring emotional arousal through skin conductance variations | Arduino UNO, GSR Sensor |
+| 🌡️ **Contactless Patient Monitoring System** | Real-time body temperature and motion detection with automated buzzer/LED alerts for abnormal patient conditions | Arduino UNO, PIR Sensor, LM35 |
 
 ---
 
